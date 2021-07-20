@@ -1,0 +1,24 @@
+{
+  "name": "mongodb_practice",
+  "version": "1.0.0",
+  "description": "Practice connecting to mongoDB Atlas using local environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-model": "mocha --exit test/testModelLayer",
+    "test-server": "mocha --exit test/testServerLayer"
+  },
+  "author": "Skyler Edvik",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "mocha": "^9.0.2",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  }
+}
